@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="TableRimatomicsMachining"]/comps/li[compClass="CompReportWorkSpeed"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TableRimatomicsMachining"]/comps</xpath>
+    <value>
+      <li Class="CompProperties_ReportWorkSpeed"></li>
+    </value>
+  </Operation>
+</Patch>
